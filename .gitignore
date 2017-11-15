@@ -1,0 +1,144 @@
+# Git ignore file.
+# Create By Ruilx
+# This file is used to ignore files which are generated
+# -----------------------------------------------------
+
+# Basic ignore
+*~
+*.core
+*.orig
+*.rej
+*_pch.h.cpp
+.#*
+*.*#
+core
+!core/
+tags
+*.debug
+
+# KILLED
+lib/baize/
+
+# C/C++ output files
+*.o
+*.obj
+*.out
+
+# C/C++ dynamic libraries
+*.so
+*.so.*
+*.dll
+
+# C/C++ static libraries
+*.lib
+lib*.a
+*.a
+
+# C/C++ executable files
+*.exe
+*.bin
+*.app
+*.run
+
+# C/C++ makefiles
+Makefile*
+
+# System resources
+*.rc
+*_resource.rc
+
+# System folders/directories temporary files
+Thumbs.db
+desktop.ini
+System\ Volume\ Information
+.DS_Store
+.Trash
+.directory
+autorun.inf
+
+# SSH/Putty private keys
+.ssh/
+id_rsa
+known_hosts
+*.ppk
+
+# QtCreator/qmake generated files
+*.autosave
+*.pro.user.*
+/.qmake.cache
+/.qmake.stash
+*.prl
+
+# QtMoc/Ui/qrc generated files
+*.moc
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+*.qm
+
+# XEmacs temporary files
+*.flc
+
+# Vim temporary files
+.*.swp
+
+# Editplus Backup files
+*.bak
+
+# Jetbrains idea floders
+.idea/
+
+# Keil generated files
+*.uvgui.*
+
+# Eclipse generated files
+.settings/
+.metadata/
+.cache-main
+
+# Old files
+*.old
+
+# Log files
+*.log
+
+# Visual Studio generated files
+*.ib_pdb_index
+*.idb
+*.ilk
+*.pdb
+*.sln
+*.suo
+*.vcproj
+*vcproj.*.*.user
+*.ncb
+*.sdf
+*.opensdf
+*.vcxproj
+*vcxproj.*
+*.res
+
+# MinGW generated files
+*.Debug
+*.Release
+
+# Python byte code files
+*.pyc
+# Python pickle save storage
+*.pkl
+
+# Java byte code files
+*.class
+
+# Backup folders
+backup/
+backups/
+Backup/
+Backups/
+
+# Don't BB
+.git/
+git.ignore
+
+# Python src folders
+src/
